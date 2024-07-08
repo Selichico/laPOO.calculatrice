@@ -12,10 +12,11 @@ namespace laPOO.Operations
         {
 
         }
-        public void Excuter()
+       
+
+        public override void Executer()
         {
             Resultat = A - B;
         }
-
     }
 }

@@ -11,9 +11,12 @@ namespace laPOO.Operations
         public Multiplication(int a, int b): base(a,b) 
         { 
         }
-        public void Excuter()
+       
+
+        public override void Executer()
         {
             Resultat = A * B;
         }
     }
+
 }

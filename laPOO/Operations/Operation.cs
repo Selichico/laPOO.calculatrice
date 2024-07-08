@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace laPOO.Operations
 {
-    public class Operation
+    public abstract class Operation
     {
         public int A { get; set; }
         public int B { get; set; }
@@ -19,11 +19,7 @@ namespace laPOO.Operations
             B = b;
         }
 
-        public void Executer(int x, int y)
-        {
-
-        }
-        
+        public abstract void Executer();
 
         
         
